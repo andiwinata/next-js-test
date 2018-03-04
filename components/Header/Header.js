@@ -4,10 +4,10 @@ import styles from './styles.scss'
 const Header = () => (
   <header className={styles.header}>
     <Link href="/">
-      <a>Home</a>
+      <a className={styles.link}>Home</a>
     </Link>
     <Link href="/about">
-      <a>About</a>
+      <a className={styles.link}>About</a>
     </Link>
   </header>
 )
