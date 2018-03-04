@@ -1,0 +1,14 @@
+@import 'mixins/core';
+
+.main {
+  font-family: $primary-font;
+  color: #333;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.body {
+  background: rgb(228, 250, 255);
+  margin: 0;
+  padding: 0;
+}
